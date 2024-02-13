@@ -1,0 +1,62 @@
+---
+created: 2023-09-07
+tags:
+  - Obsidian-app
+---
+
+## 나만의 블록 레퍼런스 스타일
+
+![](https://i.imgur.com/bCol3gu.png)
+
+#### 기본 블록 레퍼런스 스타일과 다른 점
+1. 좌측의 공백을 없앴다.
+2. Heading 1~5 표시를 없앴다.
+3. 점으로 된 밑줄을 넣었다.
+
+**마지막 플러그인 추천 있으니 꼭 참고하길 바란다.**
+
+\
+\
+\
+	
+
+## 방법
+### 1. 플러그인: Style Settings
+Theme은 Minimal을 쓰고 있다.
+Style Settings 플러그인 설정에서 `Minimal/ Embeds and transclusions`로 이동한다.
+나는 아래 이미지처럼 설정했다.
+![](https://i.imgur.com/MUAJRkH.png)
+
+\
+\
+\
+	
+### 2. CSS snippets
+플러그인으로 설정할 수 없는 것들을 CSS로 수정했다.
+```css
+/* 블록 레퍼런스 왼쪽의 공백을 없앤다. */
+
+.markdown-reading-view .markdown-preview-view:not(.is-readable-line-width)>.markdown-preview-sizer{
+margin-left: 0px;
+}
+
+  
+
+/* 블록 레퍼런스의 Heading를 안나오게 한다.*/
+
+.internal-embed.markdown-embed.inline-embed.is-loaded .markdown-embed-title,
+.internal-embed.markdown-embed.inline-embed.is-loaded .markdown-preview-section h1,
+.internal-embed.markdown-embed.inline-embed.is-loaded .markdown-preview-section h2,
+.internal-embed.markdown-embed.inline-embed.is-loaded .markdown-preview-section h3,
+.internal-embed.markdown-embed.inline-embed.is-loaded .markdown-preview-section h4,
+.internal-embed.markdown-embed.inline-embed.is-loaded .markdown-preview-section h5{
+display: none !important;
+}
+```
+
+
+## 플러그인 추천: Copy Block Link
+블록 레퍼런스를 할 때 매우 편리하다.
+내가 블록 래퍼런스를 하고 싶은 해딩이나 문단에 마우스 우클릭을 하면 링크를 복사할 수 있다.
+그리고 붙여넣기를 하면 블록 래퍼런스가 달린다.
+https://github.com/mgmeyers/obsidian-copy-block-link

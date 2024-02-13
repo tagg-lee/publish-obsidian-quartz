@@ -1,0 +1,3 @@
+- 일잘러 장피엠
+- 퓨쳐플로우 https://www.youtube.com/@futureflow.tech_
+- https://coachabdulsamad.my.canva.site/portfolio
