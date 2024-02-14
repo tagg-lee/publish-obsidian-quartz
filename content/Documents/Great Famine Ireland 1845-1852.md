@@ -1,14 +1,19 @@
 ---
-publish: true
-permalink: Great Famine_Ireland_1845-1852
-created: 2023-11-27
-updated: 
-description: 
-aliases: 
-status: "[[Done]]"
+title: 아일랜드 감자 대기근
+permalink: 
 tags:
+  - 🏷️Document
+  - 📦History
+Keywords: 
+aliases: 
+description: 
+updated: 
+created: 2024-02-13
+publish: true
 ---
-Up:: 
+free-tags:: 
+
+
 # 아일랜드 대기근
 - 이름
 	- 아일랜드 감자 기근
