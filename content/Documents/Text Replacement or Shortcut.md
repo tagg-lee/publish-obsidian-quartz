@@ -31,6 +31,11 @@ Search Keywords:
 #### Resources
 - [2024 Text Replacement Tips for iPhone, Android, Mac & Word](https://textexpander.com/blog/text-replacement-tips#:~:text=Go%20to%20the%20Settings%20app,a%20common%20phrase%2C%20etc.)
 
+\
+\
+\
+	
+
 ## OS별 설정 방법
 
 ### 크로스 플랫폼
@@ -66,7 +71,6 @@ Search Keywords:
    ![|425](https://i.imgur.com/ejuSb7B.png)
 
  
-
 
 ### Android
 #### Oreo Text Replacement
