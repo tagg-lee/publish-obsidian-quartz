@@ -37,110 +37,130 @@ References
 - [How to publish Obsidian notes with Quartz on GitHub Pages - Fork My Brain](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages)
 - [Welcome to Quartz 4](https://quartz.jzhao.xyz/)
 
-#### 가장 쉬운 방법 by 안피곤
-[옵시디언 무료 퍼블리시 방법(👍추천): Cloudflare, Quartz, Flowershow Plugin](https://anpigon.tistory.com/m/449)
-
-#### Quartz 설치 과정 (안피곤님 방법 권장)
-준비물: 
-- [Obsidian Plugin - flowsershow](https://obsidian.md/plugins?id=flowershow)
+### 방법 1
+**준비물**: 
 - Obsidian
 - Github
-- Visual studio code
 - Node.js
-	- Node:  v18.14
-	- npm: v9.3.1
+	- 권장
+		- Node: 21.6.0
+		- **(2024.01 기준 21.6.0 이상 버전 사용 시 에러 발생)**
+	- 최소: 
+		- Node:  v18.14
+		- npm: v9.3.1
 
 
-##### Quartz repository 클론하기
-Publishing 할 옵시디언의 폴더를 [[Visual Studio Code]]으로 열기
-   >저는 폴더 이름을 `Publish`라고 지었습니다. 
-
-1. Download a copy of the Quartz repository
-	```
-	git clone https://github.com/jackyzha0/quartz.git
-	```
-2. Rename `quartz` to `Publish`
-   ```
-   mv quartz Publish
-	```
-3. Change the directory to the new folder
-   ```
-   cd Publish
-	```
-4. Use NPM to install those dependencies
-   ```
-   npm i
-	```
-5. Create new Quartz project
-   ```
-   npx quartz create
-	```
-6. 두 가지 옵션을 설정한다. 
-	1. Method of initializing
-	   ```
-	   - Empty Quartz  (이거 선택)
-	   - Copy an existing folder
-	   - Symlink an existing folder
-		```
-	2. Choose how Quartz should resolve links in your content. 
-	   ```
-		- Treat links as absolute path
-		- Treat links as shortest path (이거 선택)
-		- Treat links as relative paths
-		```
-		1. You can change this later in `quartz.config.ts`.
-7. Check origin remote
-   ```
-   git remote -v
-	```
-8. Remove default origin remote
-   ```
-   git remote rm origin
-	```
-9. Change origin remote
-   ```
-   git remote add origin https://github.com/<yourusername>/<repositoryname>.git
-	```
+#### Steps
+###### 1_ Quartz 4를 설치할 폴더를 생성한다. 
 
 
-10. Pushing the changes to remote repository(github)
-	```
-	npx quartz sync --no-pull
-	```
+###### 2_ 터미널을 키고 해당 폴더로 이동한다. 
 
 
-11. Build your site locally
-    ```
-    npx quartz build --serve
-	```
+###### 3_ Download a copy of the Quartz repository
+```
+git clone https://github.com/jackyzha0/quartz.git
+```
 
 
-12. Enter `ctrl + C`  to stop server.
+###### 4_ Rename `quartz` to `Publish`
+```
+mv quartz Publish
+```
 
 
-13. Sync to Github
-    ```
-    npx quartz sync
-	```
-
-14. Make a file `.github/workflows/deploy.yml` 
-    and paste codes at https://quartz.jzhao.xyz/hosting#github-pages
+###### Change the directory to the new folder
+```
+cd Publish
+```
 
 
-15. Setting Github Actions
-    ```
-    Github > Setings > Pages > Source > (Select) Github Actions
-	```
-
->[!warning] 반드시 순서를 지키세요.
->이 단계의 설정을 마치지 않고 다음 단계로 넘어가면 에러가 발생합니다. 
->반드시 **15번 스텝을 먼저 완료**한 뒤 16번 스텝으로 넘어가세요. 
+###### 5_ Use NPM to install those dependencies
+```
+npm i
+```
 
 
+###### Create new Quartz project
+```
+npx quartz create
+```
 
--16 Create GitHub Action
+
+###### 두 가지 옵션을 설정한다. 
+1. Method of initializing
+```
+- Empty Quartz  (이거 선택)
+- Copy an existing folder
+- Symlink an existing folder
+```
+
+2. Choose how Quartz should resolve links in your content. 
+```
+- Treat links as absolute path
+- Treat links as shortest path (이거 선택)
+- Treat links as relative paths
+```
+You can change this later in `quartz.config.ts`.
+
+
+###### Check origin remote
+```
+git remote -v
+```
+
+
+###### Remove default origin remote
+```
+git remote rm origin
+```
+
+
+###### Change origin remote
+```
+git remote add origin https://github.com/<yourusername>/<repositoryname>.git
+```
+
+
+###### Pushing the changes to remote repository(github)
+```
+npx quartz sync --no-pull
+```
+
+
+###### Build your site locally
+```
+npx quartz build --serve
+```
+
+
+###### Enter `ctrl + C`  to stop server.
+
+
+###### Sync to Github
 ```
 npx quartz sync
 ```
 
-####
+###### Make a file `.github/workflows/deploy.yml` 
+and paste codes at https://quartz.jzhao.xyz/hosting#github-pages
+
+
+###### Setting Github Actions
+```
+Github > Setings > Pages > Source > (Select) Github Actions
+```
+
+>[!warning] 반드시 순서를 지키세요.
+>이 단계의 설정을 마치지 않고 다음 단계로 넘어가면 에러가 발생합니다. 
+>반드시 `Setting Github Actions`**을 먼저 완료**한 뒤 16번 스텝으로 넘어가세요. 
+
+
+
+###### Create GitHub Action
+```
+npx quartz sync
+```
+
+#### 방법 2 by 안피곤
+[옵시디언 무료 퍼블리시 방법(👍추천): Cloudflare, Quartz, Flowershow Plugin](https://anpigon.tistory.com/m/449)

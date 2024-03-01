@@ -32,10 +32,12 @@ Search Keywords:
 - [2024 Text Replacement Tips for iPhone, Android, Mac & Word](https://textexpander.com/blog/text-replacement-tips#:~:text=Go%20to%20the%20Settings%20app,a%20common%20phrase%2C%20etc.))
 
 ## OS별 설정 방법
-#### IOS
+### IOS
 
-#### Mac OS
+### Mac OS
 
-#### Android
+### Android
 
-#### Windows
+### Windows
+#### Espanso
+- 맥, 윈도우 모두 사용 가능하다. 
