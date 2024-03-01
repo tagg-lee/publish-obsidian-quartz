@@ -3,7 +3,7 @@ permalink: Anytype
 tags:
   - 📦Software
 Categories:
-  - "[[세컨드브레인(Secondbrain)]]"
+  - "[[Secondbrain]]"
 Keywords: 
 status: 
 aliases: 

@@ -4,7 +4,7 @@ tags:
   - Concept
 Categories:
   - "[[IT(정보기술)]]"
-  - "[[세컨드브레인(Secondbrain)]]"
+  - "[[Secondbrain]]"
 Keywords: 
 status: 
 aliases: 

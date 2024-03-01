@@ -3,7 +3,7 @@ permalink: Capacities-io
 tags:
   - 📦Software
 Keywords:
-  - "[[세컨드브레인(Secondbrain)]]"
+  - "[[Secondbrain]]"
 status: "[[Ongoing]]"
 aliases: 
 description: 

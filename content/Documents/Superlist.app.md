@@ -30,6 +30,7 @@ free-tags:: #task-management #productivity-app
 	- 개인용도는 **무료 플랜**으로도 충분 합니다.
 	- **협업을 지원**하며, 여러개의 협업 워크스페이스를 생성하기 위해서는 구독해야 합니다. 
 - Social
+	- [Superlist Feature Ideas | Frill.co](https://feedback.superlist.com/b/5m1d55m6/feature-ideas)
 	- [Github](https://github.com/superlistapp)
 	- [Open sources](https://www.superlist.com/opensource)
 	- [LinkedIn](https://www.linkedin.com/company/superlistapp/)

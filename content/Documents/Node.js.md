@@ -18,23 +18,32 @@ free-tags::
 
 ### How to install(feat.ChatGPT)
 #### Using Homebrew:
-1. **Install Homebrew**: If you haven't already installed Homebrew, you can do so by executing the following command in your terminal:
-    bashCopy code
-    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-2. **Install Node.js and npm**: Once Homebrew is installed, you can use it to install Node.js and npm:
+1- **Install Homebrew**: If you haven't already installed Homebrew, you can do so by executing the following command in your terminal:
+bashCopy code
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2- **Install Node.js and npm**: Once Homebrew is installed, you can use it to install Node.js and npm:
     Copy code
     `brew install node`
-#### Using Node Version Manager (nvm):
+#### Using NVM(Node Version Manager):
 
-1. **Install nvm**: If you prefer managing multiple Node.js versions or want more control over the installation process, you can use nvm. First, install nvm by running:
-    bashCopy code
-    `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
-2. **Close and Reopen Terminal**: After installing nvm, close and reopen your terminal to start using it.
-3. **Install Node.js and npm**: Now, you can use nvm to install the latest version of Node.js and npm:
+1_ **Install nvm**: If you prefer managing multiple Node.js versions or want more control over the installation process, you can use nvm. First, install nvm by running:
+bashCopy code
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+	
+
+2_ **Close and Reopen Terminal**: After installing nvm, close and reopen your terminal to start using it.
+	
+
+3_ **Install Node.js and npm**: Now, you can use nvm to install the latest version of Node.js and npm:
     Copy code
     `nvm install node`
     This command installs the latest LTS (Long Term Support) version of Node.js, which includes npm.
-
+	
 #### Verifying Installation:
 
 After installation, you can verify that Node.js and npm are installed correctly by running the following commands:
@@ -127,3 +136,4 @@ By following one of these methods, you should be able to install the latest vers
    run: `node -v`
 4. 새로운 shell에서도 설정 유지하기
    run: `nvm alias default <version>`
+

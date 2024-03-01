@@ -29,7 +29,7 @@ title: 이태극의 지식 블로그
 - [[Productivity(생산성)]]
 	- [[AI(인공지능)]]
 	- [[No-code(노코드)]]
-	- [[세컨드브레인(Secondbrain)]]
+	- [[Secondbrain]]
 - [[Obsidian]]
 - [[컨텐츠 제작(Content-creation)]]
 - [[디자인(design)]]

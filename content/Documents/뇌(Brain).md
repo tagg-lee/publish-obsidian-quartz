@@ -25,6 +25,8 @@ created: 2023-12-09
 - 두 가지 모드는 하루 내내 전환함
 - 계속 집중 모드일 수 없음. 두 가지 모드에 조화를 이뤄야 함.
 - 집중 모드 다음에 분산 모드에 들어가면 창의성을 높일 수 있다.
-  ![[Pasted image 20230202211459.png]]
+![](https://i.imgur.com/HrYx3Q5.jpeg)
+
+  
 ### References
 [Focused and Diffuse: Two Modes of Thinking (fs.blog)](https://fs.blog/focused-diffuse-thinking/)

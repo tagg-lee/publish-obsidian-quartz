@@ -8,7 +8,7 @@ status: "[[Ongoing]]"
 tags:
   - 📦Software
 Keywords:
-  - "[[세컨드브레인(Secondbrain)]]"
+  - "[[Secondbrain]]"
 ---
 
 

@@ -9,7 +9,7 @@ status: "[[Sleeping]]"
 tags:
   - 📦Software
 Keywords:
-  - "[[세컨드브레인(Secondbrain)]]"
+  - "[[Secondbrain]]"
 ---
 Up:: 
 

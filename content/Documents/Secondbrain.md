@@ -1,16 +1,18 @@
 ---
-permalink: Secondbrain
+title: 세컨드브레인(Second Brain)
+permalink: 
 tags:
-  - Category
-  - Keyword
-Categories: 
-status: 
+  - 🏷️Keyword
+Keywords: 
 aliases: 
 description: 
 updated: 
+created: 2024-02-13
 publish: true
-created: 2023-12-09
 ---
+free-tags:: 
+
+## ...
 
 
 ## 세컨드브레인이란?

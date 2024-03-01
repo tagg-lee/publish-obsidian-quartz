@@ -38,7 +38,9 @@ Visual Studio Code를 사용 중 이라면 Interpreter를 방금 생성한 가�
 1. 단축키 `cmd + shift + P` 실행
 2. 'python : select interpreter' 클릭
 3. 해당되는 interpreter 클릭 (아마 Recmomended로 뜰 것임)
-![[CleanShot 2023-05-19 at 20.06.46.png]]
+![](https://i.imgur.com/iUzIP6u.png)
+
+
 
 
 # Tips
