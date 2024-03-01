@@ -41,6 +41,8 @@ Search Keywords:
 - Mac OS, IOS, Windows, Android, Chrome
 
 ### IOS
+> IOS와 Mac OS의 설정은 동기화 됩니다
+
 1. Settings 들어가기
 2. General > Keyboards > Text Replacement(텍스트 대치)
 3. `+`로 새로운 규칙 추가
