@@ -3,7 +3,7 @@ permalink: obsidian-css-snippets-of-tagg
 tags:
   - Topic
 Keywords:
-  - "[[Obsidian]]"
+  - "[[Obsidian.md]]"
 status: 
 aliases: 
 description: 

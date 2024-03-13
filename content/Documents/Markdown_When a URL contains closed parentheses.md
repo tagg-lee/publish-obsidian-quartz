@@ -1,12 +1,19 @@
 ---
+title: 마크다운 | URL에 닫힌 괄호 ')'가 들어갔을 때
+permalink: 
+tags:
+  - 🏷️Topic
+Keywords: 
 aliases: 
-created: 2023-10-17
-type: 
-tags: 
+description: 
+updated: 
+created: 2024-02-13
+publish: true
 ---
+free-tags:: #url #encode-decode #unicode 
 
-
-# 마크다운 | URL에 닫힌 괄호 ')'가 들어갔을 때
+</br>
+</br>
 
 마크다운의 외부 링크 연결 문법은 `[name](url)`이다. 
 그래서 만약 url에 닫힌 괄호가 들어가면 url이 잘리게 된다. 
@@ -18,5 +25,5 @@ tags:
 닫힌 괄호를 Encode 해서 입력하면 해결된다. 
 `) = %29`
 
-## Reference
+## Resources
 - https://stackoverflow.com/questions/13824669/how-do-you-write-a-link-containing-a-closing-bracket-in-markdown-syntax

@@ -1,15 +1,23 @@
 ---
-permalink: obsidian-app
-created date: 2023-11-28
-updated date: 
-aliases:
-  - 옵시디언
-status: "[[Ongoing]]"
+title: 옵시디언(Obsidian)
+permalink: 
 tags:
+  - 🏷️Document
   - 📦Software
-Keywords:
-  - "[[Secondbrain]]"
+Keywords: 
+aliases: 
+description: 
+updated: 
+created: 2024-02-26
+publish: true
 ---
+free-tags:: 
+</br>
+</br>
+
+## What it is?
+- [Obsidian](https://obsidian.md)은 지식관리를 위한 오픈소스 노트 앱 입니다. 
+- 사용자들은 직접 Plugin을 개발하여 적용 수 있고, Community Plugin을 통해 유표할 수 있습니다. 
 
 
 
@@ -89,3 +97,13 @@ h6::before {
 2. Sync to Read it later service 
 Readwise, Omnivore 등의 서비스에 클리핑한 뒤 동기화 합니다. 
 Read it later service는 웹클리핑 전용 서비스입니다. 그래서 옵시디언보다 편리한 점들이 있습니다. 
+
+## 배터리 절약
+Reference:
+- https://forum.obsidian.md/t/battery-economy-when-taking-notes-syncing-on-tablet-laptop/47620/5
+
+방법
+- **Sync 끄기** (또는 주기 설정)
+- 사용하지 않거나 배터리 소모가 큰 **플러그인 끄기**
+	- (Core) Graph view
+- 노트에 **GIF 사용하지 않기**

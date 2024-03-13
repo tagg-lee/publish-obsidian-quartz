@@ -29,6 +29,7 @@ Up::
 	- 문자, 카카오톡, 네이버 톡톡, 문자
 
 ## 웹 개발
+- Google Site
 - [[Framer(프레이머) - 노코드 + AI 웹 빌더|Framer(프레이머) - 노코드 + AI 웹 빌더]]
 	- 가볍게 사용하기 좋다. 
 - Webflow
@@ -45,7 +46,7 @@ Up::
 
 ## 데이터 관리
 -   Google sheet
--   Airtable
+-   [[Airtable]]
 - [Lido](https://sheets.lido.app/)
 	- **SpreadSheets** 형식의 **무료 자동화** 서비스이다.
 	- 메일 보내기가 가능하다.

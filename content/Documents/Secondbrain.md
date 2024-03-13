@@ -26,7 +26,7 @@ free-tags::
 - 시스템 엔지니어링(System Engineering)과 밀접히 관련있다. 
 
 ## 추천 도구
-- [[Obsidian]]
+- [[Obsidian.md]]
 - [[Anytype.io]]
 - Capacities
 - [[로그시크(Logseq)|Logseq]]

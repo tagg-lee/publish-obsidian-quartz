@@ -31,19 +31,26 @@ Search Keywords:
 #### Resources
 - [2024 Text Replacement Tips for iPhone, Android, Mac & Word](https://textexpander.com/blog/text-replacement-tips#:~:text=Go%20to%20the%20Settings%20app,a%20common%20phrase%2C%20etc.)
 
-\
-\
-\
-	
+</br>
+</br>
+</br>
+
 
 ## OS별 설정 방법
 
 ### 크로스 플랫폼
-#### [TextExpander](http://textexpander.com/) 
-
+#### TextExpander 
+[TextExpander](http://textexpander.com/)
 유료 서비스이지만 다양한 OS를 지원하는 크로스 플랫폼 서비스입니다. 
 지원하는 플랫폼:
 - Mac OS, IOS, Windows, Android, Chrome
+
+</br>
+</br>
+
+#### aText
+https://www.trankynam.com/atext/
+
 
 ### IOS
 > IOS와 Mac OS의 설정은 동기화 됩니다
@@ -56,6 +63,8 @@ Search Keywords:
 6. 결과:
   ![|300](https://i.imgur.com/ufaYra2.png)
 
+</br>
+</br>
 
 
 ### Mac OS
@@ -70,7 +79,10 @@ Search Keywords:
 6. 결과:
    ![|425](https://i.imgur.com/ejuSb7B.png)
 
- 
+ </br>
+</br>
+</br>
+
 
 ### Android
 #### Oreo Text Replacement
@@ -83,6 +95,9 @@ Here’s how to set up your own special phrases on your Android Oreo:
 - Press “**+**”
 - Type a word or phrase into the top section. This word or phrase will be the desired output from the shortcut. 
 - Next, in the bottom “**Optional Shortcut**” section, type what you would like to input to get the previously typed output.
+
+</br>
+</br>
 
 #### SAMSUNG
 Here’s how to set up your own special phrases on your Samsung:
@@ -99,6 +114,10 @@ Here’s how to set up your own special phrases on your Samsung:
 - Type the shortcut in the top “**Shortcut**” section
 - Type the full phrase in the “**Expanded** **phrase**” section
 - Once you have done both, press the “**Add**” button, and you have a personalized text replacement
+
+</br>
+</br>
+</br>
 
 ### Windows
 #### Espanso

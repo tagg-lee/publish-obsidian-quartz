@@ -1,21 +1,26 @@
 ---
-permalink: google-sheets
+title: Google Sheets(구글 시트)
+permalink: 
 tags:
-  - 📦Software
+  - 🏷️Document
+  - 📦App
 Keywords: 
-status: 
 aliases: 
 description: 
 updated: 
+created: 2024-02-13
 publish: true
-created: 2023-12-27
 ---
+free-tags:: #Office
+</br>
+</br>
 
+## ...
 
 ## 개요
 - Google에서 만든 워크스페이스 중 하나다. 
 
-## 사용법
+## Tips
 #### 캘린더 팝업 뜨게 만들기
 
 1. `Data validation rules` 켜기
@@ -60,3 +65,22 @@ Reference:
 - `MID(문자열, 문자_위치_값_시작, 문자_위치_값_끝)`
 	- `MID()` 함수는 입력받은 `문자열`의 입력받은 시작점과 끝점 사이 문자열을 반환합니다. 
 	- 예시: 예시: `LEFT("1234567", 2, 5)`는 "2345"을 반환합니다. 
+
+
+## Functions
+
+#### ARRAYFORMULA(array_formula)
+>###### EXAMPLE
+>ARRAYFORMULA(A1:C1+A2:C2)
+>
+>###### ABOUT
+> Enables the display of values returned from an array formula into multiple rows and/or columns and the use of non-array functions with arrays.
+>
+> ---
+> `array_formula`
+> A range, mathematical expression using one cell range or multiple ranges of the same size, or a function that returns a result greater than one cell.
+> 
+> [Learn more](https://support.google.com/docs/answer/3093275?hl=en&sjid=9124382006651170583-AP#null)
+
+##### Resources
+- [Google Sheets - Use ARRAYFORMULA Instead of Repeating Functions - YouTube](https://www.youtube.com/watch?v=92C3V0GjhgA)

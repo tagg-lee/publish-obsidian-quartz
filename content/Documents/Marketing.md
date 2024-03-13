@@ -18,8 +18,28 @@ free-tags::
 - NFL
 - 코카콜라
 - 애플(APPLE)
-- 나이[[HRD-Net_Submit a Supplemental Request]]
+- [[HRD-Net_Submit a Supplemental Request]]
 
+
+## Channels
+### 한국
+- SNS
+	- **Youtube**
+	- Instagram
+	- Facebook
+	- 𝕏
+	- 카카오톡 오픈채팅
+- 1:1
+	- 네이버 톡톡
+	- 카카오톡 채널
+	- 카카오톡 오픈 계정
+- Web Search
+	- **Website** (Google search)
+	- **Naver Blog** (Naver search)
+
+
+### 해외
+- LinkedIn
 
 ## Marketing automation
 #### Resources
